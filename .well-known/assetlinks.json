@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.diaapp",
+      "sha256_cert_fingerprints": [
+        "96:69:53:09:D5:AD:BD:66:F6:9C:0F:11:67:2B:48:F5:6D:33:3E:A9:EA:77:E5:92:33:38:1F:6C:54:48:4E:17"
+      ]
+    }
+  }
+]
