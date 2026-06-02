@@ -1,11 +1,15 @@
 [
   {
-    "relation": ["delegate_permission/common.handle_all_urls"],
+    "relation": [
+      "delegate_permission/common.handle_all_urls",
+      "delegate_permission/common.get_login_creds"
+    ],
     "target": {
       "namespace": "android_app",
       "package_name": "com.diaapp",
       "sha256_cert_fingerprints": [
-        "96:69:53:09:D5:AD:BD:66:F6:9C:0F:11:67:2B:48:F5:6D:33:3E:A9:EA:77:E5:92:33:38:1F:6C:54:48:4E:17"
+        "96:69:53:09:D5:AD:BD:66:F6:9C:0F:11:67:2B:48:F5:6D:33:3E:A9:EA:77:E5:92:33:38:1F:6C:54:48:4E:17",
+        "E8:0F:79:72:31:65:42:FA:DD:01:73:53:AA:C6:FF:AC:74:51:EC:F7:D0:0A:36:4B:79:37:E6:F0:D7:25"
       ]
     }
   }
